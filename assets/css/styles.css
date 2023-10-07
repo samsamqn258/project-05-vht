@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color-border: #ff5b2eb3;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #fffaf5;
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Sora", sans-serif;
+}
+
+input,
+select,
+textarea,
+button {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+/* common */
+.container {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    --height: 60px;
+
+    min-width: 189px;
+    display: inline-block;
+    height: var(--height);
+    line-height: var(--height);
+    text-align: center;
+    border-radius: 99px;
+    border: 1px solid var(--primary-color-border);
+    color: #ff5b2e;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+/* Header */
+.header {
+   padding-top: 26px;
+   padding-bottom: 8px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__item {
+    display: inline-block;
+}
+
+.navbar__link {
+    display: inline-block;
+    padding: 8px 18px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1;
+    color: #5e6085;
+}
+
+.navbar__link:hover {
+    color: #000958;
+    text-shadow: 1px 0 0 currentColor;
+}
+
+.header-top__action {
+    --height: 50px;
+    min-width: 117px;
+    border: 1px solid #000958b3;
+    color: #000958;
+    font-size: 1.4rem;
+}
+
+/* Hero */
+
